@@ -1,6 +1,6 @@
 # chat_app
 
-A new Flutter project.
+Chat Application with Sign up and Login – Developed a fully functional chat application with features such as sign-in and login – utilized firebase for user authentication and real-time messaging
 
 ## Getting Started
 
