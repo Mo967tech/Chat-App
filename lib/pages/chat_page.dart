@@ -10,10 +10,7 @@ class ChatPage extends StatelessWidget {
   static String id = "ChatPage";
   static CollectionReference messages =
       FirebaseFirestore.instance.collection(kMessagesCollection);
-  /**
-   * to control textfield 
-   * like clear text field after sending messages
-   */
+  
   final TextEditingController controller = TextEditingController();
   final ScrollController chatPageController = ScrollController();
 

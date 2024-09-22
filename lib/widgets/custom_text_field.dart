@@ -20,6 +20,8 @@ class CustomTextFormField extends StatelessWidget {
         if (data!.isEmpty) {
           ///the message will appear under Text form field if error happen
           return 'Field is required';
+        } else {
+          return null;
         }
       },
       onChanged: onChanged,
